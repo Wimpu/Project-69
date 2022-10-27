@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website-1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">St.Xaviers's School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">Campus Life</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to ask queries on school@gmail.com ***
+            </marquee>
+        </div>
+        <iframe id="video" src="https://www.youtube.com/embed/9Frow8HMh74"></iframe>
+		<div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+<div class="row">
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="Church.jpg">
+                <h4 class="text-capitalize"><kbd>School Church</kbd></h4>
+                <hr>
+                <p class="text-muted">It is a  beautiful church with heritage look maintained.</p>
+            </div>
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="Library.jpg">
+                <h4 class="text-capitalize"><kbd>School Library</kbd></h4>
+                <hr>
+                <p class="text-muted">It is air conditioned, full online catalog and renewal facility.</p>
+            </div>
+            <div class="campus_life_mainDiv col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img class="img-responsive" src="Auditorium.jpg">
+                <h4 class="text-capitalize"><kbd>School Auditorium</kbd></h4>
+                <hr>
+                <p class="text-muted">The St. Xavier's stage found a place of pride in the cultural life of Calcutta.</p>
+            </div>
+        </div>
+        <div class="page-header" id="achievments">
+            <h2 class="text-capitalize">school achievments</h2>
+        </div>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment1">
+            Inter School Debate on Enviromental Pollution<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="Pollution.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 achievment_text">
+                <h5 class="text-success text-capitalize">Inter School Debate on Enviromental Pollution
+                </h5>
+                <p>Won first prize in Inter School Debate on Enviromental Pollution.</p>
+            </div>
+        </div>
+			<hr>
+			<hr>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment2" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="Football.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-capitalize">Inter School Football Competition
+                </h5>
+                <p>Came second in Inter School Football Competition</p>
+            </div>
+        </div>
+		<hr>
+			<hr>
+        <div class="bg-primary achievment_head" data-toggle="collapse" data-target="#school_achievment3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+        <div id="school_achievment3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="Science Project.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-capitalize">Inter School Project Science Competition 
+                </h5>
+                <p>Won second prize in Inter School Project Science Competition.</p>
+            </div>
+        </div>
+		<hr>
+			<hr>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize text-left">Contact Us</h2>
+        </div>
+        <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.3803823947624!2d85.31313709999999!3d27.674635999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x74d6cea6c4aebf90!2sSaint%20Xavier&#39;s%20School%2C%20Jawalakhel!5e0!3m2!1sen!2sin!4v1666884663544!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div id="Details">
+            <img src="images.jpg" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal name: </h3>
+            <h4>Mr.Xavier John Dcosta</h4>
+            <div class="contact_1">
+                <a href="mailto:school@gmail.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;schoolid</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;123456789</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
